@@ -424,7 +424,7 @@ static const CGFloat MarginLeft = 20.0f;
 
 - (void)cropRectViewDidBeginEditing:(PECropRectView *)cropRectView
 {
-    self.resizing = YES;
+    self.resizing = NO;
 }
 
 - (void)cropRectViewEditingChanged:(PECropRectView *)cropRectView
