@@ -142,13 +142,13 @@
 
 - (void)setShowsGridMajor:(BOOL)showsGridMajor
 {
-    _showsGridMajor = showsGridMajor;
+    _showsGridMajor = false;
     [self setNeedsDisplay];
 }
 
 - (void)setShowsGridMinor:(BOOL)showsGridMinor
 {
-    _showsGridMinor = showsGridMinor;
+    _showsGridMinor = false;
     [self setNeedsDisplay];
 }
 
